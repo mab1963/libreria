@@ -71,7 +71,7 @@ header{
 				color:#fff;
 }
 .h1{
-     font-size:2rem;
+     font-size:3rem;
 				font-width: 900;
 				margin-bottom: 20px;
 				text-align:center;
@@ -199,6 +199,10 @@ li b{
 
 
 @media screen and (max-width:400px){
+    .h1{
+Font-size:1.3rem;
+}
+}
 				
 							.img-car{
 											width:90%;
