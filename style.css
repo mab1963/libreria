@@ -1,0 +1,223 @@
+*{
+				margin: 0;
+				padding: 0;
+				box-sizen:border-box;
+				list-style:none;
+}
+:roost{
+				scroll-behavisor:smooth;
+}
+
+body{
+     
+				font-family:'open Saens', saens serif;
+     font-size:16px;
+     }
+
+.contenedor{
+				width: 90%;
+				overflow:hidden;
+				margin:auto;
+				padding: 60px 0;
+				
+}
+header{
+			height: 100vh;
+		
+			background-image:linear-gradient(135deg, rgba(161,140,209, 0.4)0%, rgba(151,194,230, 0.4)100%),url(header7.png);
+		backgraound-position:center;
+		background-attachimet:fixed;
+		background-size:cover;
+				
+}
+
+.menu-navegacion{
+				position: fixed;
+				top:0;
+				right: 0;
+				width: 30vw;
+				height: 100vh;
+				z-index:20;
+				background-image:linear-gradient(135deg, #6755ff 0%, #b06aff 100%);
+				
+				display:flex;
+				flex-direction:column;
+			
+				justify-content:space-evenly;
+				align-items:center;
+				transition:transform .3s aese-in-out; 
+				transform:translate(110%);
+				box-shadow:0,0,0, 0.7;
+}
+.spread{
+				transform:translate(0);
+}
+.hamburguer{
+    width:40px;
+    height: 40px;
+    font-size:30px;
+    border-radius: 10px;
+    position: fixed;
+				top:20px;
+				right: 30px;
+				text-align:center;
+				background:#fff;
+				cursor:pointer;
+				box-shadow: 0 0 6px #845;
+				z-index:2;
+}
+.menu-navegacion a{
+				text-decoration:none;
+				color:#fff;
+}
+.h1{
+     font-size:2rem;
+				font-width: 900;
+				margin-bottom: 20px;
+				text-align:center;
+				color:#000;
+font-family: 'Source Serif Pro', serif;
+}
+.p{
+			text-shadow:2px 4px 0 #000;
+			font-size:1.4rem;
+}
+
+.head{
+				padding: 0;
+				height: 100vh;
+				font-family: 'Source Serif Pro', serif;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				flex-direction:column;
+				color:#f93;
+				text-align:center;
+				position:absolute;
+				top: 0;
+				}
+				
+				/* servicios */
+.content-main{
+				width: 100vw;
+				background: #ececec;
+			
+				
+				
+}			
+
+
+
+/*servicios e imagenes de porfolii*/
+
+
+.main-card{
+				
+				display:flex;
+				flex-wrap:wrap;
+				
+				align-items:center;
+				justify-content:space-between;
+				margin:30px auto;
+							
+}
+.img-car{
+				width: 49%;
+}
+h2{
+				font-size:1.3rem;
+}
+ul li{
+				margin-top:2rem;
+				
+}
+li b{
+				font-list:none;
+				width: 15px;
+				height: 15px;
+    border-radius: 50%;
+		  	color:#fff;	        background:rgba(151,149, 209, 0.5);
+				margin: 2rem ;
+}
+.pp{
+				text-alingn:left 10px;
+}
+.h4{
+				text-align:center;
+}
+
+.cont-text{
+				width: 49vw;
+				margin:20px auto;
+				background: #fff;
+				box-shadow:0 8px 0 rgba(165,78,220, 0.5);
+}
+    /* galery */
+    
+
+
+
+/*porfolio*/
+.galeria img {
+ box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+ 
+  border-radius: 15px;
+  
+  }
+  
+  			
+.materialbox-caption {
+/* bottom: 30px;*/
+  right: 0;
+  width: 80%;
+  height: auto;
+  padding: 3px;
+  margin: auto;       background: #000;
+ box-shadow: 5px 5px #fff; 
+ font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+ }
+ .galeria .col img{
+ margin-bottom: 20px;
+ cursor:pointer;
+ } 
+ .galeria .col img:hover{
+ 				transition:45deg;
+ }
+ @media screen and (max-width: 400px){ 
+ .materialbox-caption { 
+ width: 90%; 
+ }
+ }
+  @media screen and (max-width: 992px){ 
+  .materialbox-caption { 
+  width: 70%;
+   }
+  }
+
+
+
+@media screen and (max-width:400px){
+				
+							.img-car{
+											width:90%;
+											margin: auto;
+											height: 12rem;
+							}
+							.cont-text{
+											width: 90%;
+											margin: auto;
+							}
+							.img-galeria{
+											width: 48%;
+							}
+												
+								
+				
+}
+				
+
+       
+       
+  
